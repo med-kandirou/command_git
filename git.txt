@@ -1,0 +1,35 @@
+git push:
+	git config --global user.name "name"
+	git config --global user.email "simo.kandirou15@gmail.com"
+	git int
+	git add .
+	git status
+	git remote add origin url https://github.com/kandirou0/test-git.git
+	git commit -m "message"
+	git push origin master/main/branch_name
+
+
+git clone:
+	git clone https://github.com/kandirou0/test-git.git
+
+
+git branch:
+	//display branch
+	git branch
+	//create branch
+	git branch name
+	//switch branch
+	git checkout branch_name
+
+git update :
+	git add .
+	git commit -m "mise a jour"
+	git remote add master https://github.com/kandirou0/dessiner-rectangle.git
+	git push origin master
+
+	
+
+	
+
+
+
